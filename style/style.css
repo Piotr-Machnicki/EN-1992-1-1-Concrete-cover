@@ -1,0 +1,22 @@
+:root {
+	--first-color: #000; /*black*/
+	--second-color: #66cdaa; /*mediumaquamarine*/
+	--text-color: #ff0000; /*red*/
+  }
+
+  * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: var(--text-color);
+  }
+
+body {
+	background-color: black;
+}
+
+.wrapper {
+	max-width: 1600px;
+	margin: 0 auto;
+  }
